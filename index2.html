@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hukam Singh Rawat - Legal & Commerce Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* Light gray background */
+            color: #334155; /* Dark slate gray text */
+        }
+        .section-padding {
+            padding: 4rem 1rem; /* Responsive padding for sections */
+        }
+        @media (min-width: 768px) {
+            .section-padding {
+                padding: 6rem 4rem; /* Larger padding on desktop */
+            }
+        }
+        .text-gradient {
+            background-image: linear-gradient(to right, #2563eb, #4f46e5); /* Blue to Indigo gradient */
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header Section -->
+    <header class="bg-gray-900 shadow-md py-4 px-6 md:px-12 fixed w-full z-10 rounded-b-lg">
+        <nav class="container mx-auto flex justify-between items-center flex-wrap">
+            <a href="#" class="text-2xl font-bold text-white rounded-md p-2">Hukam Singh Rawat</a>
+            <div class="block lg:hidden">
+                <button id="nav-toggle" class="flex items-center px-3 py-2 border rounded text-gray-300 border-gray-500 hover:text-white hover:border-white focus:outline-none">
+                    <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+                </button>
+            </div>
+            <div class="w-full flex-grow lg:flex lg:justify-center lg:items-center lg:w-auto hidden" id="nav-content">
+                <div class="text-sm lg:flex lg:space-x-8">
+                    <a href="#about" class="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white p-2 rounded-md transition duration-300 ease-in-out hover:bg-gray-800">About</a>
+                    <a href="#services" class="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white p-2 rounded-md transition duration-300 ease-in-out hover:bg-gray-800">Services</a>
+                    <a href="#successes" class="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white p-2 rounded-md transition duration-300 ease-in-out hover:bg-gray-800">Client Successes</a>
+                    <a href="#contact" class="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white p-2 rounded-md transition duration-300 ease-in-out hover:bg-gray-800">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex items-center justify-center bg-gradient-to-r from-gray-900 to-gray-800 text-white section-padding pt-24 md:pt-0 rounded-b-xl">
+        <div class="container mx-auto text-center px-4">
+            <!-- The 'w-40 h-40' classes set a fixed width and height for the image.
+                 The 'object-cover' class ensures the image fills this circular area without stretching,
+                 cropping the edges if its original aspect ratio doesn't perfectly match. -->
+            <img src="Hukam1.jpeg" alt="Hukam Singh Rawat Profile Picture" class="rounded-full mx-auto mb-6 border-4 border-white shadow-lg w-40 h-40 object-cover">
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-4 leading-tight">
+                Welcome, I am <span class="text-sky-300">Hukam Singh Rawat</span>
+            </h1>
+            <p class="text-xl md:text-2xl mb-8 opacity-95">
+                An accomplished professional with qualifications in LLB & MCom, specializing in comprehensive Legal, Taxation, and Corporate Compliance services.
+            </p>
+            <a href="#services" class="inline-block bg-indigo-600 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-indigo-700 transition duration-300 ease-in-out transform hover:scale-105">
+                Explore My Services
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="bg-white section-padding rounded-xl shadow-lg m-4 md:m-8">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl font-bold mb-8 text-gradient">About Me</h2>
+            <div class="max-w-4xl mx-auto text-lg leading-relaxed text-gray-800">
+                <p class="mb-4">
+                    As Hukam Singh Rawat, I bring a robust foundation in both legal and commercial domains, holding qualifications in **LLB and MCom**. My professional endeavor is centered on delivering strategic and effective solutions across complex legal, financial, and regulatory compliance frameworks for individuals and businesses alike.
+                </p>
+                <p class="mb-4">
+                    My practice encompasses comprehensive expertise in direct and indirect taxation, meticulous corporate secretarial services, and the intricate field of intellectual property rights. I am committed to guiding my clients through statutory requirements with precision, diligence, and a forward-thinking approach.
+                </p>
+                <p>
+                    A hallmark of my commitment is continuous professional development. I actively engage in staying abreast of the latest legal and financial advancements, ensuring that my advice and solutions are always contemporary, compliant, and poised to achieve optimal outcomes for my esteemed clientele.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="bg-slate-100 section-padding rounded-xl shadow-lg m-4 md:m-8">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl font-bold mb-8 text-gradient">My Professional Services</h2>
+            <div class="flex flex-wrap justify-center gap-6">
+                <!-- Service Card 1: Taxation & Compliance -->
+                <div class="bg-white p-6 rounded-lg shadow-md w-full sm:w-1/2 lg:w-1/4 transform transition duration-300 hover:scale-105 hover:shadow-xl">
+                    <h3 class="text-2xl font-semibold mb-3 text-indigo-700">Taxation & Audit</h3>
+                    <ul class="list-disc list-inside text-left mx-auto max-w-xs text-gray-700">
+                        <li>GST Registration & Filing</li>
+                        <li>GST Proceedings & Appeals</li>
+                        <li>Income Tax Return (ITR) Filing</li>
+                        <li>Income Tax Proceedings & Representation</li>
+                        <li>Tax & Statutory Audits</li>
+                    </ul>
+                </div>
+                <!-- Service Card 2: Corporate & Secretarial -->
+                <div class="bg-white p-6 rounded-lg shadow-md w-full sm:w-1/2 lg:w-1/4 transform transition duration-300 hover:scale-105 hover:shadow-xl">
+                    <h3 class="text-2xl font-semibold mb-3 text-indigo-700">Corporate & Secretarial</h3>
+                    <ul class="list-disc list-inside text-left mx-auto max-w-xs text-gray-700">
+                        <li>Company & LLP Registration</li>
+                        <li>ROC Compliances & Filings</li>
+                        <li>Professional Bookkeeping Services</li>
+                    </ul>
+                </div>
+                <!-- Service Card 3: Intellectual Property Rights -->
+                <div class="bg-white p-6 rounded-lg shadow-md w-full sm:w-1/2 lg:w-1/4 transform transition duration-300 hover:scale-105 hover:shadow-xl">
+                    <h3 class="text-2xl font-semibold mb-3 text-indigo-700">Intellectual Property Rights</h3>
+                    <ul class="list-disc list-inside text-left mx-auto max-w-xs text-gray-700">
+                        <li>Trademark Registration & Protection</li>
+                        <li>Copyright & Patent Assistance</li>
+                        <li>IPR Litigation Support</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Successes Section -->
+    <section id="successes" class="bg-white section-padding rounded-xl shadow-lg m-4 md:m-8">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl font-bold mb-8 text-gradient">Notable Client Successes</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Success Card 1 -->
+                <div class="bg-slate-50 p-6 rounded-lg shadow-md transform transition duration-300 hover:scale-102 hover:shadow-xl">
+                    <img src="https://placehold.co/400x250/e0e7ff/6366f1?text=Success+1" alt="Client Success 1" class="rounded-md mb-4 w-full h-auto object-cover">
+                    <h3 class="text-2xl font-semibold mb-2 text-indigo-700">Strategic Tax Resolution</h3>
+                    <p class="text-gray-700 mb-4">Successfully resolved complex GST audit discrepancies for a manufacturing firm, leading to a favorable assessment and substantial savings.</p>
+                    <a href="#" class="inline-block bg-indigo-600 text-white py-2 px-4 rounded-md text-sm hover:bg-indigo-700 transition duration-300 ease-in-out">View Case Study</a>
+                </div>
+                <!-- Success Card 2 -->
+                <div class="bg-slate-50 p-6 rounded-lg shadow-md transform transition duration-300 hover:scale-102 hover:shadow-xl">
+                    <img src="https://placehold.co/400x250/e0e7ff/6366f1?text=Success+2" alt="Client Success 2" class="rounded-md mb-4 w-full h-auto object-cover">
+                    <h3 class="text-2xl font-semibold mb-2 text-indigo-700">Seamless Corporate Establishment</h3>
+                    <p class="text-gray-700 mb-4">Facilitated the swift and compliant incorporation of a tech startup, handling all regulatory filings and initial compliances.</p>
+                    <a href="#" class="inline-block bg-indigo-600 text-white py-2 px-4 rounded-md text-sm hover:bg-indigo-700 transition duration-300 ease-in-out">View Case Study</a>
+                </div>
+                <!-- Success Card 3 -->
+                <div class="bg-slate-50 p-6 rounded-lg shadow-md transform transition duration-300 hover:scale-102 hover:shadow-xl">
+                    <img src="https://placehold.co/400x250/e0e7ff/6366f1?text=Success+3" alt="Client Success 3" class="rounded-md mb-4 w-full h-auto object-cover">
+                    <h3 class="text-2xl font-semibold mb-2 text-indigo-700">Robust Trademark Protection</h3>
+                    <p class="text-gray-700 mb-4">Secured comprehensive trademark protection for a rapidly expanding retail brand, safeguarding their intellectual assets against infringement.</p>
+                    <a href="#" class="inline-block bg-indigo-600 text-white py-2 px-4 rounded-md text-sm hover:bg-indigo-700 transition duration-300 ease-in-out">View Case Study</a>
+                </div>
+            </div>
+            <a href="#" class="inline-block bg-indigo-700 text-white font-bold py-3 px-8 rounded-full shadow-lg mt-12 hover:bg-indigo-800 transition duration-300 ease-in-out transform hover:scale-105">
+                View All Case Studies
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-slate-100 section-padding rounded-xl shadow-lg m-4 md:m-8">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl font-bold mb-8 text-gradient">Connect With Me</h2>
+            <p class="text-lg text-gray-700 mb-8 max-w-2xl mx-auto">
+                For inquiries or to discuss how I can assist you, please feel free to reach out using the form below or connect via my professional channels.
+            </p>
+            <div class="max-w-lg mx-auto bg-white p-8 rounded-lg shadow-md">
+                <form>
+                    <div class="mb-4">
+                        <input type="text" id="name" name="name" placeholder="Your Full Name" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500" required>
+                    </div>
+                    <div class="mb-4">
+                        <input type="email" id="email" name="email" placeholder="Your Professional Email" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500" required>
+                    </div>
+                    <div class="mb-4">
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message or Inquiry" class="w-full p-3 border border-gray-300 rounded-md resize-y focus:outline-none focus:ring-2 focus:ring-indigo-500" required></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-indigo-600 text-white font-bold py-3 px-6 rounded-md hover:bg-indigo-700 transition duration-300 ease-in-out transform hover:scale-105">Submit Inquiry</button>
+                </form>
+            </div>
+            <div class="mt-8 text-gray-600 flex justify-center space-x-6">
+                <a href="mailto:rawatt@gmail.com" class="hover:text-indigo-600 transition duration-300 ease-in-out">
+                    <svg class="w-6 h-6 inline-block mr-2" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M2.003 5.884L10 9.882l8-3.998A2 2 0 0122 7v10a2 2 0 01-2 2H4a2 2 0 01-2-2V7a2 2 0 01.003-1.116zM4 7v10h16V7L12 11 4 7z"/></svg>
+                    rawatt@gmail.com
+                </a>
+                <a href="https://in.linkedin.com/in/hukam-rawat-48504313a?" target="_blank" class="hover:text-indigo-600 transition duration-300 ease-in-out">
+                    <svg class="w-6 h-6 inline-block mr-2" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.4 20.35H3.68V9.1H7.4v11.25zM5.53 7.5a1.98 1.98 0 110-3.96 1.98 1.98 0 010 3.96zM20.35 20.35h-3.72V14.5c0-1.4-.03-3.21-1.95-3.21-1.95 0-2.25 1.52-2.25 3.1V20.35H8.72V9.1h3.57v1.64h.05c.48-.92 1.66-1.89 3.44-1.89 3.68 0 4.36 2.42 4.36 5.56v6.94z"/></svg>
+                    LinkedIn Profile
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white py-6 text-center rounded-t-lg">
+        <div class="container mx-auto px-4">
+            <p>&copy; 2023 Hukam Singh Rawat. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript for mobile navigation toggle
+        document.addEventListener('DOMContentLoaded', () => {
+            const navToggle = document.getElementById('nav-toggle');
+            const navContent = document.getElementById('nav-content');
+
+            navToggle.addEventListener('click', () => {
+                navContent.classList.toggle('hidden');
+            });
+
+            // Close nav when a link is clicked (for smooth scrolling behavior)
+            const navLinks = navContent.querySelectorAll('a');
+            navLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    if (!navContent.classList.contains('hidden') && window.innerWidth < 1024) {
+                        navContent.classList.add('hidden');
+                    }
+                });
+            });
+
+            // Smooth scrolling for navigation links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
